@@ -11,7 +11,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='eip-auditor',  # Required
-    version='1.0.0',  # Required
+    version='1.0.1',  # Required
     url='https://github.com/SpekoTechnologies/eip-auditor',  # Optional
     author='Speko Technologies',  # Optional
     author_email='info@speko.io',  # Optional

@@ -32,13 +32,13 @@ class Client(object):
         """
         super(Client, self).__init__()
         self.regions = []
+        self.default_region = 'us-east-1'
         self.__set_region__(region)
         self.access_key = os.getenv('AWS_ACCESS_KEY_ID', None)
         self.secret_key = os.getenv('AWS_SECRET_ACCESS_KEY', None)
         self.session = None
         self.client = None
         self.cidr = cidr
-        self.default_region = 'us-east-1'
 
     def perform(self):
         """Main method to be called to run this application.
